@@ -13,7 +13,9 @@
  * @brief This file takes a given array and finds some common statistical values
  *        for the numbers in that array.
  *
- * <Add Extended Description Here>
+ * A general C refresher assignment. There are some simple functions for finding
+ * Max, Min, Mean and Median values in an array and a qsort implementation for
+ * sorting.
  *
  * @author Collin Smith
  * @date March 1st, 2020
