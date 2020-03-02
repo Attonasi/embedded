@@ -134,7 +134,7 @@ int qsort_partition(unsigned char * nums, int low, int high) {
 
     int i = low;
     for (int j = low; j <= high; j++) {
-        if (nums[j] < nums[high]) {
+        if (nums[j] > nums[high]) {
             swap(&nums[i], &nums[j]);
             i++;
         }

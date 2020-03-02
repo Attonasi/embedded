@@ -127,7 +127,7 @@ unsigned char find_mean(unsigned char * nums, int len);
 unsigned char find_maximum(unsigned char * nums, int len);
 
 /**
- * @brief  the mallest value of the array.
+ * @brief  find the smallest value of the array.
  *
  * @param unsigned char * nums pointer to the array.
  * @param int len number of elements in the array.
