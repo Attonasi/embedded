@@ -29,9 +29,7 @@
 #define SIZE (40)
 
 void main() {
-
-//    unsigned char test[SIZE] = {1,6,3,2};
-
+//  unsigned char test[SIZE] = {1,6,3,2};
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
                               200, 122, 150, 90,   92,  87, 177, 244,
@@ -39,11 +37,9 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-
   Statistical_Values * stats = create_stats(0, 0, 0, 0);
 
   /* Statistics and Printing Functions Go Here */
-
   print_array(test, SIZE);
 
   stats->median = find_median(test, SIZE);
@@ -70,7 +66,6 @@ void print_statistics(Statistical_Values * stats) {
 }
 
 void print_array(unsigned char * nums, int len) {
-
     printf("\n********* Array Elements **********\n\n[ ");
     for ( int i = 0; i < len; i++) {
         if (i==len-1) {

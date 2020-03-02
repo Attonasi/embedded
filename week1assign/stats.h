@@ -26,19 +26,6 @@
 #include <stdlib.h>
 
 /**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
-
-/**
  * @brief Statistical_Values struct holds common statistical values
  * derived from an array.
  *
